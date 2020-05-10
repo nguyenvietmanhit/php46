@@ -23,31 +23,33 @@
         <counts>
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="html" value="1" />
           <entry key="js" value="1" />
-          <entry key="php" value="52" />
+          <entry key="php" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="52" />
+          <entry key="PHP" value="55" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="php" value="5114" />
+          <entry key="php" value="10698" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PHP" value="5114" />
+          <entry key="HTML" value="5" />
+          <entry key="PHP" value="10693" />
         </counts>
       </usages-collector>
     </session>
@@ -55,48 +57,25 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46_NgoVieTan_Day1/PHP46_NgoVieTan_Day1/bai7.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46_NgoVieTan_Day1/PHP46_NgoVieTan_Day1/bai8.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai2.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-357" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai4.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-255" />
-          </provider>
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai7.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+            <state>
+              <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
         </entry>
@@ -109,15 +88,56 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/Ta Hai Dang/Ta Hai Dang/dangml/Ex1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            <state>
+              <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/Ta Hai Dang/Ta Hai Dang/dangml/ex2.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_tap.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+              <folding>
+                <element signature="e#6#13#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_5.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-7">
+              <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/Ta Hai Dang/Ta Hai Dang/dangml/ex2.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_ngay_11.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="206" column="5" lean-forward="true" selection-start-line="206" selection-start-column="5" selection-end-line="206" selection-end-column="5" />
+              <folding>
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -126,7 +146,11 @@
     <findStrings>
       <find>submitHandler</find>
       <find>json_encode</find>
+      <find>x</find>
     </findStrings>
+    <replaceStrings>
+      <replace>$</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -145,6 +169,9 @@
         <option value="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/FE10-Nguyễn_Quốc_Hùng_Day10/day10/bai5.php" />
         <option value="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46_Day01_TranThanhHoangAnh/PHP46_Day01_TranThanhHoangAnh/bai1+2.php" />
         <option value="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46_NgoVieTan_Day1/PHP46_NgoVieTan_Day1/bai2.php" />
+        <option value="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_tap.php" />
+        <option value="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_5.php" />
+        <option value="$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_ngay_11.php" />
       </list>
     </option>
   </component>
@@ -190,221 +217,36 @@
               <item name="php46" type="b2602c69:ProjectViewProjectNode" />
               <item name="php46" type="462c0819:PsiDirectoryNode" />
               <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE-DANGTHIXUANQUYNH-Day10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE-DANGTHIXUANQUYNH-Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="FE-DANGTHIXUANQUYNH-Day10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE-TranKhanhDuy-day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE10-DOTUANSON-Day10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE10-DOTUANSON-Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="FE10-DOTUANSON-Day10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE10-Nguyễn_Quốc_Hùng_Day10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE10-Nguyễn_Quốc_Hùng_Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="day10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="lehongduc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="lehongduc" type="462c0819:PsiDirectoryNode" />
-              <item name="lehongduc" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46-DangThiThu-Day10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46-DangThiThu-Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46-DangThiThu-Day10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46-DangThiThu-Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46-DangThiThu-Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="bai5" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46-DangThiThu-Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46-DangThiThu-Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai6" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46-DangThiThu-Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46-DangThiThu-Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai7" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46-DangThiThu-Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46-DangThiThu-Day10" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai8" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46_Day01_TranThanhHoangAnh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46_Day01_TranThanhHoangAnh" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46_Day01_TranThanhHoangAnh" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46_NgoVieTan_Day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46_NgoVieTan_Day1" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP46_NgoVieTan_Day1" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="PHP_BuiXuanTruong_Day10" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Ta Hai Dang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Ta Hai Dang" type="462c0819:PsiDirectoryNode" />
-              <item name="Ta Hai Dang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="Ta Hai Dang" type="462c0819:PsiDirectoryNode" />
-              <item name="Ta Hai Dang" type="462c0819:PsiDirectoryNode" />
-              <item name="dangml" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
               <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php46" type="b2602c69:ProjectViewProjectNode" />
               <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
+              <item name="Draft" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
               <item name="Slides" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -419,6 +261,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -451,17 +294,18 @@
       <updated>1588852079491</updated>
       <workItem from="1588852080621" duration="9468000" />
       <workItem from="1589077490491" duration="7345000" />
+      <workItem from="1589108727025" duration="9940000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16813000" />
+    <option name="totallyTimeSpent" value="26753000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2526475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -489,27 +333,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Phim_tat_can_ban_PHPStorm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="11" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Code_demo_tren_lop/demo.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="7" selection-start-line="17" selection-start-column="7" selection-end-line="17" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Code_demo_tren_lop/import.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="54" selection-start-line="1" selection-end-line="1" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Code_demo_tren_lop/demo_php.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -739,8 +562,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state>
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -748,19 +571,15 @@
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-255" />
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" lean-forward="true" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        <state>
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
     </entry>
@@ -769,13 +588,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/Ta Hai Dang/Ta Hai Dang/dangml/Ex1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" lean-forward="true" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
+        <state>
+          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/Ta Hai Dang/Ta Hai Dang/dangml/ex2.php">
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_tap.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#6#13#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-7">
+          <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_ngay_11.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="206" column="5" lean-forward="true" selection-start-line="206" selection-start-column="5" selection-end-line="206" selection-end-column="5" />
+          <folding>
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
   </component>
 </project>
