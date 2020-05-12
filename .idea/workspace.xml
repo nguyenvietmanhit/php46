@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13d541ce-1a7e-4a84-b093-36d3cc3727d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-day1/btnv3.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-day1/btnv4.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-day1/btvn.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-day1/btvn2.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/FE-TranKhanhDuy-day1/btvn5.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_10.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/Bai_tap_ve_nha_ngay_10.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/Bai_tap_ve_nha_ngay_10.docx" afterDir="false" />
-    </list>
+    <list default="true" id="13d541ce-1a7e-4a84-b093-36d3cc3727d3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,10 +12,12 @@
     <session id="169305601">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -56,7 +49,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai2.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -74,7 +67,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai7.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="187">
               <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
             </state>
           </provider>
@@ -88,7 +81,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/Ta Hai Dang/Ta Hai Dang/dangml/Ex1.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
+            <state relative-caret-position="136">
               <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
             </state>
           </provider>
@@ -97,45 +90,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/Ta Hai Dang/Ta Hai Dang/dangml/ex2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
+            <state relative-caret-position="34">
               <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_tap.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
-              <folding>
-                <element signature="e#6#13#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_5.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-              <folding>
-                <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_ngay_11.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="206" column="5" lean-forward="true" selection-start-line="206" selection-start-column="5" selection-end-line="206" selection-end-column="5" />
-              <folding>
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -202,53 +158,6 @@
               <item name="php46" type="b2602c69:ProjectViewProjectNode" />
               <item name="php46" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day10_PHP_Setup_Enviroment_And_Basic" type="462c0819:PsiDirectoryNode" />
-              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
-              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
-              <item name="Code_demo_tren_lop" type="462c0819:PsiDirectoryNode" />
-              <item name="Draft" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
-              <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
-              <item name="Slides" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -295,17 +204,17 @@
       <workItem from="1588852080621" duration="9468000" />
       <workItem from="1589077490491" duration="7345000" />
       <workItem from="1589108727025" duration="9940000" />
+      <workItem from="1589289444848" duration="462000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26753000" />
+    <option name="totallyTimeSpent" value="27215000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33509833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -445,9 +354,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="325">
           <caret line="50" column="42" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#div#0;n#div#0;n#form#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -567,6 +473,9 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_tap.php" />
+    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_5.php" />
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_ngay_11.php" />
     <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai2.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -578,7 +487,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai7.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="187">
           <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
         </state>
       </provider>
@@ -588,46 +497,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/Ta Hai Dang/Ta Hai Dang/dangml/Ex1.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
+        <state relative-caret-position="136">
           <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/Ta Hai Dang/Ta Hai Dang/dangml/ex2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
+        <state relative-caret-position="34">
           <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_tap.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#6#13#0#PHP" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="72" column="10" selection-start-line="72" selection-start-column="10" selection-end-line="72" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#h3#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_ngay_11.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="206" column="5" lean-forward="true" selection-start-line="206" selection-start-column="5" selection-end-line="206" selection-end-column="5" />
-          <folding>
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
