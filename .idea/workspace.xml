@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13d541ce-1a7e-4a84-b093-36d3cc3727d3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_11.docx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_11.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_11.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Slides/1_Array_Foreach.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Slides/1_Array_Foreach.ppt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,12 +17,13 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="5" />
+          <entry key="project.opened" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -29,7 +31,7 @@
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
           <entry key="js" value="1" />
-          <entry key="php" value="78" />
+          <entry key="php" value="138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -37,7 +39,7 @@
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="78" />
+          <entry key="PHP" value="138" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -56,71 +58,64 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-Tu/Bai2.php">
+        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai2.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-Tu/Bai3.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="56" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="56" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-Tu/Bai4.php">
+        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai3.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-Tu/Bai6.php">
+        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai4.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b1.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b6.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b8.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b9.php">
+        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai5.php">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b10.php">
+        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai6.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai7.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai8.php">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai9.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-102" />
+            <state relative-caret-position="-612" />
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai10.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b11.php">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai11.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-114" />
+          </provider>
         </entry>
       </file>
     </leaf>
@@ -156,6 +151,7 @@
         <option value="$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_5.php" />
         <option value="$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_ngay_11.php" />
         <option value="$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt10.php" />
+        <option value="$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day11/PHP46-DangThiThu-Day11/Bai8/Bai8.php" />
       </list>
     </option>
   </component>
@@ -179,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,7 +207,7 @@
               <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
               <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="BE-TranKhanhDuy-day2" type="462c0819:PsiDirectoryNode" />
+              <item name="LeHongDuc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php46" type="b2602c69:ProjectViewProjectNode" />
@@ -218,8 +215,8 @@
               <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
               <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="BE-TranKhanhDuy-day2" type="462c0819:PsiDirectoryNode" />
-              <item name="day2" type="462c0819:PsiDirectoryNode" />
+              <item name="LeHongDuc" type="462c0819:PsiDirectoryNode" />
+              <item name="LeHongDuc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php46" type="b2602c69:ProjectViewProjectNode" />
@@ -227,7 +224,7 @@
               <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
               <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE46-Tu" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php46" type="b2602c69:ProjectViewProjectNode" />
@@ -235,7 +232,8 @@
               <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
               <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE46-TẠ HẢI ĐĂNG" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php46" type="b2602c69:ProjectViewProjectNode" />
@@ -243,14 +241,180 @@
               <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
               <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
               <item name="DSNB" type="462c0819:PsiDirectoryNode" />
-              <item name="FE46-TẠ HẢI ĐĂNG" type="462c0819:PsiDirectoryNode" />
-              <item name="FE46-TẠ HẢI ĐĂNG" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai5" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai6" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai8" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai9" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DangThiThu-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai10" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DANGTHIXUANQUYNH-Day11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DANGTHIXUANQUYNH-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DANGTHIXUANQUYNH-Day11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DOTUANSON-Day11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DOTUANSON-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-DOTUANSON-Day11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-NgoVietTan_day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-NgoVietTan_day2" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-NgoVietTan_day2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-Nguyễn_Quốc_Hùng-Day11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46-Nguyễn_Quốc_Hùng-Day11" type="462c0819:PsiDirectoryNode" />
+              <item name="day11" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="php46" type="b2602c69:ProjectViewProjectNode" />
+              <item name="php46" type="462c0819:PsiDirectoryNode" />
+              <item name="Day11_PHP_Operator_Condition_Loop" type="462c0819:PsiDirectoryNode" />
+              <item name="Bai_tap_ve_nha" type="462c0819:PsiDirectoryNode" />
+              <item name="DSNB" type="462c0819:PsiDirectoryNode" />
+              <item name="PHP46_BuiXuanTruong_day11" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -296,17 +460,18 @@
       <workItem from="1589108727025" duration="9940000" />
       <workItem from="1589289444848" duration="462000" />
       <workItem from="1589432930152" duration="1282000" />
+      <workItem from="1589445531239" duration="1618000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28497000" />
+    <option name="totallyTimeSpent" value="30115000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34039333" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34434968" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -334,258 +499,211 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/lehongduc/lehongduc/backendday01.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-340">
-          <caret line="24" column="12" lean-forward="true" selection-start-line="24" selection-start-column="12" selection-end-line="24" selection-end-column="12" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day11/PHP46-DangThiThu-Day11/Bai7/Bai7.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day10/PHP46-DangThiThu-Day10/Bai1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="2" lean-forward="true" selection-start-line="16" selection-start-column="2" selection-end-line="16" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day10/PHP46-DangThiThu-Day10/Bai2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="51" lean-forward="true" selection-start-line="2" selection-start-column="51" selection-end-line="2" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day10/PHP46-DangThiThu-Day10/Bai3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="50" column="12" lean-forward="true" selection-start-line="50" selection-start-column="12" selection-end-line="50" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day10/PHP46-DangThiThu-Day10/Bai4.php">
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day11/PHP46-DangThiThu-Day11/Bai8/Bai8.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
-          <caret line="16" column="10" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <caret line="10" column="16" lean-forward="true" selection-start-line="10" selection-start-column="14" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day10/PHP46-DangThiThu-Day10/bai5/Bai5.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" lean-forward="true" selection-start-line="23" selection-end-line="23" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day11/PHP46-DangThiThu-Day11/Bai9/Bai9.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day10/PHP46-DangThiThu-Day10/bai5/Bai5.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day11/PHP46-DangThiThu-Day11/Bai10/Bai10.php">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day10/PHP46-DangThiThu-Day10/Bai6/Bai6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-527" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day10/PHP46-DangThiThu-Day10/Bai7/Bai7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46-DangThiThu-Day10/PHP46-DangThiThu-Day10/Bai8/Bai8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46_Day01_TranThanhHoangAnh/PHP46_Day01_TranThanhHoangAnh/bai1+2.php">
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DANGTHIXUANQUYNH-Day11/PHP46-DANGTHIXUANQUYNH-Day11/Bai01.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
-          <caret line="14" column="19" lean-forward="true" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="19" />
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46_Day01_TranThanhHoangAnh/PHP46_Day01_TranThanhHoangAnh/bai3.php">
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DANGTHIXUANQUYNH-Day11/PHP46-DANGTHIXUANQUYNH-Day11/Bai02.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46_NgoVieTan_Day1/PHP46_NgoVieTan_Day1/bai2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="7" lean-forward="true" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46_NgoVieTan_Day1/PHP46_NgoVieTan_Day1/bai4.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="7" lean-forward="true" selection-start-line="24" selection-start-column="7" selection-end-line="24" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46_NgoVieTan_Day1/PHP46_NgoVieTan_Day1/bai7.php">
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DANGTHIXUANQUYNH-Day11/PHP46-DANGTHIXUANQUYNH-Day11/Bai03.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP46_NgoVieTan_Day1/PHP46_NgoVieTan_Day1/bai8.php">
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DANGTHIXUANQUYNH-Day11/PHP46-DANGTHIXUANQUYNH-Day11/Bai04.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_tap.php" />
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/chua_bai_5.php" />
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Code_demo_tren_lop/demo_ngay_11.php" />
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai2.php">
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DANGTHIXUANQUYNH-Day11/PHP46-DANGTHIXUANQUYNH-Day11/Bai05.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai3.php">
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DANGTHIXUANQUYNH-Day11/PHP46-DANGTHIXUANQUYNH-Day11/Bai06.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai4.php">
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DANGTHIXUANQUYNH-Day11/PHP46-DANGTHIXUANQUYNH-Day11/Bai07.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai7.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/PHP_BuiXuanTruong_Day10/bai8.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/Ta Hai Dang/Ta Hai Dang/dangml/Ex1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="2" selection-start-line="8" selection-start-column="2" selection-end-line="8" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day10_PHP_Setup_Enviroment_And_Basic/Bai_tap_ve_nha/DSNB/Ta Hai Dang/Ta Hai Dang/dangml/ex2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="2" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/.idea/day2.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/LeHongDuc/LeHongDuc/bai4day02.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt2.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt3.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt4.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt5.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt6.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt7.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt8.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt9.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt10.php">
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DANGTHIXUANQUYNH-Day11/PHP46-DANGTHIXUANQUYNH-Day11/Bai08.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="8" lean-forward="true" selection-end-line="15" selection-end-column="8" />
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt11.php">
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DANGTHIXUANQUYNH-Day11/PHP46-DANGTHIXUANQUYNH-Day11/Bai09.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DANGTHIXUANQUYNH-Day11/PHP46-DANGTHIXUANQUYNH-Day11/Bai10.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-357" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DANGTHIXUANQUYNH-Day11/PHP46-DANGTHIXUANQUYNH-Day11/Bai11.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-816" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DOTUANSON-Day11/PHP46-DOTUANSON-Day11/Bai1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="12" lean-forward="true" selection-start-line="17" selection-start-column="12" selection-end-line="17" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DOTUANSON-Day11/PHP46-DOTUANSON-Day11/Bai2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DOTUANSON-Day11/PHP46-DOTUANSON-Day11/Bai3.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DOTUANSON-Day11/PHP46-DOTUANSON-Day11/Bai4.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DOTUANSON-Day11/PHP46-DOTUANSON-Day11/Bai5.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DOTUANSON-Day11/PHP46-DOTUANSON-Day11/Bai6.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DOTUANSON-Day11/PHP46-DOTUANSON-Day11/Bai7.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DOTUANSON-Day11/PHP46-DOTUANSON-Day11/Bai9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-471" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-DOTUANSON-Day11/PHP46-DOTUANSON-Day11/Bai10.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-NgoVietTan_day2/PHP46-NgoVietTan_day2/bai1day2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="7" lean-forward="true" selection-start-line="32" selection-start-column="7" selection-end-line="32" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-NgoVietTan_day2/PHP46-NgoVietTan_day2/bai2day2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-NgoVietTan_day2/PHP46-NgoVietTan_day2/bai3day2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-NgoVietTan_day2/PHP46-NgoVietTan_day2/bai4day2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-NgoVietTan_day2/PHP46-NgoVietTan_day2/bai5day2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day11/day11/bai1.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="15" column="2" lean-forward="true" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day11/day11/bai2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day11/day11/bai3.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day11/day11/bai4.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="2" lean-forward="true" selection-start-line="10" selection-start-column="2" selection-end-line="10" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day11/day11/bai5.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day11/day11/bai6.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day11/day11/bai7.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day11/day11/bai8.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day11/day11/bai9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day11/day11/bai10.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day11/day11/bai11.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-233" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai1.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai2.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai3.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai4.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai5.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai6.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai7.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai8.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai9.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai10.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <folding>
-            <element signature="n#style#0;n#table#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#td#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-Tu/Bai1.php">
+    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai11.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="53" selection-start-line="17" selection-start-column="53" selection-end-line="17" selection-end-column="53" />
-        </state>
+        <state relative-caret-position="-114" />
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-Tu/Bai2.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-Tu/Bai3.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="56" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-Tu/Bai4.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-Tu/Bai6.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b1.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="11" lean-forward="true" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b6.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="7" lean-forward="true" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b8.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="7" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="21" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b9.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b10.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/FE46-TẠ HẢI ĐĂNG/FE46-TẠ HẢI ĐĂNG/buoi2-b11.php">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>
