@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="13d541ce-1a7e-4a84-b093-36d3cc3727d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_11.docx" beforeDir="false" afterPath="$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/Nhan_xet_bai_tap_ngay_11.docx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Slides/1_Array_Foreach.ppt" beforeDir="false" afterPath="$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Slides/1_Array_Foreach.ppt" afterDir="false" />
-    </list>
+    <list default="true" id="13d541ce-1a7e-4a84-b093-36d3cc3727d3" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,15 +12,16 @@
     <session id="169305601">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
+          <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -71,8 +68,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai11.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+            <state relative-caret-position="153">
+              <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -80,7 +77,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt3.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="85">
               <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
             </state>
           </provider>
@@ -99,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-NgoVietTan_day2/PHP46-NgoVietTan_day2/bai3day2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+            <state relative-caret-position="119">
+              <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -108,7 +105,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-NgoVietTan_day2/PHP46-NgoVietTan_day2/bai4day2.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
+            <state relative-caret-position="102">
               <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
             </state>
           </provider>
@@ -129,7 +126,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Code_demo_tren_lop/demo_array.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="370">
+            <state relative-caret-position="425">
               <caret line="278" column="34" lean-forward="true" selection-start-line="278" selection-start-column="34" selection-end-line="278" selection-end-column="34" />
             </state>
           </provider>
@@ -195,6 +192,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -234,7 +232,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -282,17 +279,18 @@
       <workItem from="1589432930152" duration="1282000" />
       <workItem from="1589445531239" duration="1618000" />
       <workItem from="1589454715641" duration="11080000" />
+      <workItem from="1589469279656" duration="602000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="41195000" />
+    <option name="totallyTimeSpent" value="41797000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.0" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.33509833" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -485,14 +483,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai11.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="9" column="11" lean-forward="true" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
+        <state relative-caret-position="153">
+          <caret line="9" column="11" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/BE-TranKhanhDuy-day2/day2/bt3.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="85">
           <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
         </state>
       </provider>
@@ -505,14 +503,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-NgoVietTan_day2/PHP46-NgoVietTan_day2/bai3day2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="7" column="6" lean-forward="true" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46-NgoVietTan_day2/PHP46-NgoVietTan_day2/bai4day2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
+        <state relative-caret-position="102">
           <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
         </state>
       </provider>
@@ -529,7 +527,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Code_demo_tren_lop/demo_array.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
+        <state relative-caret-position="425">
           <caret line="278" column="34" lean-forward="true" selection-start-line="278" selection-start-column="34" selection-end-line="278" selection-end-column="34" />
         </state>
       </provider>
