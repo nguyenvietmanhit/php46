@@ -1,6 +1,39 @@
 <!--thuc_hanh.php-->
 <!--Làm thực hành 4 trong slide-->
 <?php
+
+
+
+if (isset($_GET['name'])) {
+    echo $_GET['name'];
+} else {
+    echo '';
+}
+function arrayInt($element) {
+  if (!is_int($element)) {
+      return FALSE;
+  }
+
+  return $element;
+}
+
+$arr = ['A', 'B', 'C', 'D', 2, 3];
+$arr1 = array_filter($arr, 'arrayInt');
+echo "<pre>" . __LINE__ . ", " . __DIR__ . "<br />";
+print_r($arr);
+echo "</pre>";
+echo "<pre>" . __LINE__ . ", " . __DIR__ . "<br />";
+print_r($arr1);
+echo "</pre>";
+
+die;
+die;
+
+
+
+
+
+
 //xử lý submit form
 //debug mảng $_GET
 echo "<pre>";
