@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="13d541ce-1a7e-4a84-b093-36d3cc3727d3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Day13_PHP_Form/Code_demo/thuc_hanh.php" beforeDir="false" afterPath="$PROJECT_DIR$/Day13_PHP_Form/Code_demo/thuc_hanh.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +14,9 @@
     <session id="169305601">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.0" value="2" />
+          <entry key="project.closed" value="4" />
+          <entry key="project.open.time.0" value="3" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.2" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.45" value="1" />
@@ -33,7 +32,7 @@
           <entry key="html" value="1" />
           <entry key="iml" value="1" />
           <entry key="js" value="1" />
-          <entry key="php" value="275" />
+          <entry key="php" value="276" />
           <entry key="txt" value="3" />
         </counts>
       </usages-collector>
@@ -42,27 +41,37 @@
           <entry key="HTML" value="1" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JavaScript" value="1" />
-          <entry key="PHP" value="275" />
+          <entry key="PHP" value="276" />
           <entry key="PLAIN_TEXT" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gitignore" value="7" />
-          <entry key="php" value="24726" />
+          <entry key="php" value="25059" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="HTML" value="5" />
-          <entry key="PHP" value="24721" />
+          <entry key="PHP" value="25054" />
           <entry key="PLAIN_TEXT" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Day13_PHP_Form/Code_demo/thuc_hanh.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -115,8 +124,8 @@
         <option value="$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Bai_tap_ve_nha_PHP_Array/DSNB/PHP46-DOTUANSON-Day12/PHP46-DOTUANSON-Day12/Bai9.php" />
         <option value="$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Bai_tap_ve_nha_PHP_Array/DSNB/PHP46-Nguyễn_Quốc_Hùng-Day12/day12/bai13.php" />
         <option value="$PROJECT_DIR$/Day13_PHP_Form/Code_demo/demo_form.php" />
-        <option value="$PROJECT_DIR$/Day13_PHP_Form/Code_demo/thuc_hanh.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/Day13_PHP_Form/Code_demo/thuc_hanh.php" />
       </list>
     </option>
   </component>
@@ -140,7 +149,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -151,18 +159,19 @@
             <path>
               <item name="php46" type="b2602c69:ProjectViewProjectNode" />
               <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day12_PHP_Array_Function_Array_String_Number" type="462c0819:PsiDirectoryNode" />
+              <item name="Day13_PHP_Form" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="php46" type="b2602c69:ProjectViewProjectNode" />
               <item name="php46" type="462c0819:PsiDirectoryNode" />
-              <item name="Day12_PHP_Array_Function_Array_String_Number" type="462c0819:PsiDirectoryNode" />
-              <item name="Bai_tap_ve_nha_PHP_Array" type="462c0819:PsiDirectoryNode" />
+              <item name="Day13_PHP_Form" type="462c0819:PsiDirectoryNode" />
+              <item name="Code_demo" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -215,17 +224,17 @@
       <workItem from="1589454715641" duration="11080000" />
       <workItem from="1589469279656" duration="602000" />
       <workItem from="1589684250805" duration="8225000" />
-      <workItem from="1589816081263" duration="548000" />
+      <workItem from="1589765562481" duration="971000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61783000" />
+    <option name="totallyTimeSpent" value="61962000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.35098335" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3496802" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -302,13 +311,6 @@
     <entry file="file://$PROJECT_DIR$/Day11_PHP_Operator_Condition_Loop/Bai_tap_ve_nha/DSNB/PHP46_BuiXuanTruong_day11/bai10.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Day13_PHP_Form/Code_demo/thuc_hanh.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="479">
-          <caret line="135" column="17" lean-forward="true" selection-start-line="135" selection-start-column="17" selection-end-line="135" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Bai_tap_ve_nha_PHP_Array/DSNB/Vũ Văn Quân/Vũ Văn Quân/bai11.php" />
     <entry file="file://$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Bai_tap_ve_nha_PHP_Array/DSNB/Vũ Văn Quân/Vũ Văn Quân/bai12.php" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
@@ -332,5 +334,12 @@
     <entry file="file://$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Bai_tap_ve_nha_PHP_Array/DSNB/PHP46_BuiXuanTruong_day12/bai12.php" />
     <entry file="file://$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Bai_tap_ve_nha_PHP_Array/DSNB/PHP46_BuiXuanTruong_day12/bai13.php" />
     <entry file="file://$PROJECT_DIR$/Day12_PHP_Array_Function_Array_String_Number/Bai_tap_ve_nha_PHP_Array/DSNB/PHP46_BuiXuanTruong_day12/bai14.php" />
+    <entry file="file://$PROJECT_DIR$/Day13_PHP_Form/Code_demo/thuc_hanh.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
