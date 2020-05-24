@@ -19,16 +19,6 @@ function arrayInt($element) {
 
 $arr = ['A', 'B', 'C', 'D', 2, 3];
 $arr1 = array_filter($arr, 'arrayInt');
-echo "<pre>" . __LINE__ . ", " . __DIR__ . "<br />";
-print_r($arr);
-echo "</pre>";
-echo "<pre>" . __LINE__ . ", " . __DIR__ . "<br />";
-print_r($arr1);
-echo "</pre>";
-
-die;
-die;
-
 
 
 
@@ -166,6 +156,24 @@ dựa vào trạng thái submit form
                        value="0" <?php echo $gender_female; ?> /> Female
                 <input type="radio" name="gender"
                 value="1" <?php echo $gender_male; ?> /> Male
+            </td>
+        </tr>
+        <tr>
+            <td>Jobs</td>
+            <td>
+                <input type="checkbox" name="jobs[]" value="0" /> Developer <br />
+                <input type="checkbox" name="jobs[]" value="1" /> Tester <br />
+                <input type="checkbox" name="jobs[]" value="2" /> PM <br />
+            </td>
+        </tr>
+        <tr>
+            <td>Country</td>
+            <td>
+                <select name="country">
+                    <option value="0">Viet Nam</option>
+                    <option value="1">Korea</option>
+                    <option value="2">Japan</option>
+                </select>
             </td>
         </tr>
         <tr>
