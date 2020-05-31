@@ -1,0 +1,31 @@
+CREATE TABLE students(
+id INT(11) PRIMARY KEY AUTO_INCREMENT,
+name VARCHAR(255)
+);
+INSERT INTO students(`name`) VALUES
+('Manh1'), ('Manh2'), ('Manh3'), ('Manh4'), ('Manh5');
+#1 - Từ khóa IN, được dùng thay thế cho nhiều điều kiện OR
+#Sử dụng OR
+SELECT * FROM students WHERE id = 1 OR id = 2 OR id = 3;
+#Sử dụng IN thay thế
+SELECT * FROM students WHERE id IN (1, 2, 3);
+
+# 2 - BETWEEN, dùng để thay thế cho điều kiện theo 1 khoảng
+SELECT * FROM students WHERE id >= 1 AND id <= 3;
+SELECT * FROM students WHERE id BETWEEN 1 AND 3;
+
+# 3 - Hàm COUNT - đếm số bản ghi trả về từ câu lệnh SELECT dựa theo 1 trường nào đấy
+# Có thể từ khóa AS để đặt định danh khác cho tên cột hoặc tên bảng, để mang 1 ngữ nghĩa dễ hiểu hơn
+SELECT COUNT(id) AS count_id FROM students;
+
+#4 - Hàm MAX - lấy giá trị lớn nhất từ câu truy vấn SELECT của các bản ghi dựa theo tên trường
+SELECT MAX(id) AS max_id FROM students;
+
+#5 - Hàm MIN - lấy giá trị nhỏ nhất từ câu truy vấn SELECT của các bản ghi dựa theo tên trường
+SELECT MIN(id) AS min_id FROM students;
+#6- HÀM AVG - average - tính giá trị trung bình từ câu truy vấn SELECT của các bản ghi theo tên trường
+SELECT AVG(id) AS avg_id FROM students;
+#7 - HÀM SUM - tỉnh tổng của các bản ghi theo tên trường
+SELECT SUM(id) AS sum_id FROM students;
+#8 - Từ khóa GROUP BY - nhóm các giá trị theo trường đc group by, thường đi kèm với các hàm tính toán của mysql
+SELECT COUNT(id) FROM students GROUP BY id;
