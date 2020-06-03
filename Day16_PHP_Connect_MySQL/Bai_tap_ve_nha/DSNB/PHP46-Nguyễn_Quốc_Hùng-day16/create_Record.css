@@ -1,0 +1,30 @@
+input,textarea{
+	width: 100%;
+	height: 30px;
+	margin: 10px 0px;
+}
+input[type='radio']{
+	width: auto;
+	height: auto;
+	margin: 20px 0px;
+}
+.save{
+	background: #337AB7;
+	color: white;
+}
+.save,.cancel{
+	border-radius: 5px;
+	border: none;
+	margin: 5px 0px;
+	padding: 10px 0px;
+	width: 80px;
+}
+.containt{
+	margin: 0px 30%;
+}
+b{
+	margin: 8px 0px;
+}
+h1{
+	color: #282857;
+}
