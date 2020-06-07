@@ -1,0 +1,17 @@
+<?php
+//views/students/index.php
+?>
+<table>
+    <tr>
+        <th>ID</th>
+        <th>Name</th>
+    </tr>
+    <tr>
+        <td>1</td>
+        <td>Mạnh</td>
+    </tr>
+    <tr>
+        <td>2</td>
+        <td>Manh2</td>
+    </tr>
+</table>
