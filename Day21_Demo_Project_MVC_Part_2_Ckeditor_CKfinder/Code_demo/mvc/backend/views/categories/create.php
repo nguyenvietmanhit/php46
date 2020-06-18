@@ -14,6 +14,15 @@
         class="form-control"
         />
     </div>
+<!--  tích hợp CKEditor cho description
+  , ckeditor chỉ làm việc đc với thẻ <textarea>, và sử dụng
+  thuộc tính name của textarea để cấu hình
+  1 - COpy thư mục ckeditor vào hệ thống, /assets/ckeditor
+  2 - Nhúng file ckeditor/ckeditor.js vào layout
+  3 - Code JS để cấu hình
+  4 - Tích hợp ckfinder để tạo ra nút Upload file cho Ckeditor
+  , làm theo hướng dẫn trong slide tương ứng để config
+  -->
     <div class="form-group">
         <label for="description">Description</label>
         <textarea id="description" name="description" class="form-control"></textarea>

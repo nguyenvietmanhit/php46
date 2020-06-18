@@ -33,8 +33,25 @@
     <div class="message-wrap content-wrap content-wrapper">
         <!-- Content Header (Page header) -->
         <section class="content-header">
-            <div class="alert alert-danger">Lỗi validate</div>
-            <p class="alert alert-success">Thành công</p>
+<!--         Nếu có lỗi validate thì mới hiển thị ra   -->
+            <?php if (!empty($this->error)): ?>
+                <div class="alert alert-danger">
+                    <?php echo $this->error; ?>
+                </div>
+            <?php endif ?>
+            <?php
+            //hiển thị session error
+               if (isset($_SESSION['error'])) {
+                   echo $_SESSION['error'];
+                   unset($_SESSION['error']);
+               }
+               //hiển thị session success
+               if (isset($_SESSION['success'])) {
+                   echo $_SESSION['success'];
+                   unset($_SESSION['success']);
+               }
+            ?>
+<!--            <p class="alert alert-success">Thành công</p>-->
         </section>
     </div>
 
@@ -70,6 +87,10 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
 <script src="assets/js/adminlte.min.js"></script>
+<!--Tích hợp CKEditor-->
+<script src="assets/ckeditor/ckeditor.js"></script>
+<!--My script-->
+<script src="assets/js/script.js"></script>
 </body>
 </html>
 
