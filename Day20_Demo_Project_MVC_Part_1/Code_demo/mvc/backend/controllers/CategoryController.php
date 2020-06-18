@@ -23,4 +23,14 @@ class CategoryController extends Controller {
         //gọi(nhúng file) layout để gắn nội dung view đó
         require_once 'views/layouts/main.php';
     }
+
+    //Hiển thị và xử lý form thêm mới danh mục
+    public function create() {
+
+        //lấy nội dung view create
+        $this->content =
+            $this->render('views/categories/create.php');
+        //gọi layout để hiển thị ra view này
+        require_once 'views/layouts/main.php';
+    }
 }
