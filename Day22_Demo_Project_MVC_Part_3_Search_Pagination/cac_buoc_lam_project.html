@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Các bước làm project</title>
+</head>
+<body>
+    1 - Chuẩn bị được giao diện tất cả các trang của
+    frontend và backend, sau khi xác định đc chủ đề project
+    2 - Phân tích CSDL dựa vào giao diện frontend
+    + categories: tên bảng sẽ ở dạng số nhiều, phân tích xem bảng
+    categories sẽ có những trường gì
+    - id: khóa chính, luôn để tự động tăng
+    - name: tên danh mục
+    - description: mô tả chi tiết cho danh mục
+    - status: 0 - disabled, 1 - Active -> kiểu dữ liệu: tinyint
+    - type: tinyint(3) - 0: danh mục về tin tức, 1 - về sản phẩm
+    - created_at: ngày tạo, tự động sinh dựa vào
+    hàm CURRENT_TIMESTAMP
+    - updated_at: ngày cuối cùng bản ghi đc update, sinh thủ công
+    + products: chứa các thông tin về sản phẩm
+    id:
+    avatar: lưu tên file ảnh
+    <!--category_name: ko tạo trường kiểu như này-->
+    category_id: trường category id, sẽ liên kết với bảng categories
+    name: tên sản phẩm
+    price: giá sản phẩm
+    user_id: khóa ngoại, liên kết với bảng users,
+    ai là người thêm sản phẩm
+    summary: tổng quan về sản phẩm
+    news_id: khóa ngoại, liên kết với bảng news, 1 sản phẩm sẽ có
+    các tin tức liên quan đi kèm
+    content: chi tiết sản phẩm
+    status: 0 - disabled, 1 - Active -> kiểu dữ liệu: tinyint
+    created_at
+    updated_at
++ Bảng news: chứa các tin tức
+- id
+- avatar: lưu file ảnh
+- title: tiêu đề tin
+- category_id: id của danh mục, khóa ngoại liên kết với
+    bảng categories
+- summary: tổng quan về tin
+- content: nội dung chi tiết, -> kiểu TEXT
+- status
+- created_at
+- updated_at
++ Bảng slides: chứa các thông tin về slide hiển thị ở trang chủ
+- id
+- avatar: lưu thông tin ảnh
+- news_id: id của tin tức, khóa ngoại, liên kết với bảng news
+    quan hệ 1 - 1
+- position: vị trí hiển thị cho các slide
+- status
+- created_at
+- updated_at
++ Bảng users: chứa các thông tin về user trên hệ thống
+    (frontend và admin)
+- id
+- avatar: tên file ảnh
+- fullname: họ tên đầy đủ
+- job: nghề nghiệp
+- email: email của bạn
+- last_login: thời gian đăng nhập cuối cùng , datetime,
+    về mặt logic, trường này sẽ sinh ra khi user logout, cụ thể
+    sẽ phải update lại trường này cho users
+- first_name:
+- last_name
+- facebook: link facebook của user
+- username: tên đăng nhập
+- password: mật khẩu, sẽ lưu dưới dạng mã hóa trong csdl
+- status
+- created_at
+- updated_at
++ Bang orders: lưu các thông tin về đơn hàng
+- id
+- fullname: tên người mua hàng
+- address: địa chỉ người mua hàng
+- mobile: sđt người mua hàng
+- email: email ng mua hàng
+- note: ghi chú từ ng mua hàng
+- price_total: tổng giá trị đơn hàng
+- payment_status: trạng thái thanh toán đơn hàng, lưu theo kiểu
+  TINYINT: 0 - chưa thanh toán, 1 - Đã thanh toán, 2 - Đã giao hàng
+- status
+- created_at
+- updated_at
++ Bảng order_details: thông tin chi tiết về đơn hàng
+- order_id: id của bảng orders, khóa ngoại, liên kết với bảng orders,
+order_Detail này đang thuộc về order nào
+- product_id: id của product, khóa ngoại, liên bảng với bảng products
+,order_detail này là của sản phẩm nào
+- quality: số lượng sản phẩm đã đặt
+Chạy Code_demo/file file_sql_create_db.html để tạo CSDL mvc_demo,
+phục vụ cho quá trình demo project
+
+3 - Dựng mô hình MVC, và code backend trước, code các chức năng
+cơ bản là THêm, sửa, xóa, liệt kê dựa theo từng bảng
+mvc/
+    /backend:
+    /frontend
+4  - Ghép layout vào backend dựa vào giao diện html
+    backend đã có
++ Copy toàn bộ nội dung HTML của file templates index.html,
+paste vào views/layouts/main.php
++ Copy thư mục assets của template backend, đè vào thư mục
+assets hiện tại của mô hình mvc
+
+5 - Code chức năng
++ Code file index.php gốc của ứng dụng trước
++ Code controller
++ Code model
+</body>
+</html>
