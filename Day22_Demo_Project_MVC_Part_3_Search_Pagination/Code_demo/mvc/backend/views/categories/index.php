@@ -21,13 +21,28 @@ Form tìm kiếm thì sẽ ở phương thức GET
     -->
         <label for="name">Nhập name:</label>
         <input type="text" id="name" name="name"
-               value="" class="form-control" />
+value="<?php echo isset($_GET['name']) ? $_GET['name'] : '' ?>"
+               class="form-control" />
     </div>
     <div class="form-group">
+        <?php
+        $selected_disabled = '';
+        $selected_active = '';
+        if (isset($_GET['status'])) {
+            switch ($_GET['status']) {
+                case 0: $selected_disabled = 'selected';break;
+                case 1: $selected_active = 'selected';break;
+            }
+        }
+        ?>
         <label for="status">Chọn trạng thái</label>
         <select id="status" name="status" class="form-control">
-            <option value="0">Disabled</option>
-            <option value="1">Active</option>
+            <option value="0" <?php echo $selected_disabled?> >
+                Disabled
+            </option>
+            <option value="1" <?php echo $selected_active?> >
+                Active
+            </option>
         </select>
     </div>
     <div class="form-group">
@@ -112,5 +127,7 @@ Form tìm kiếm thì sẽ ở phương thức GET
       </tr>
   <?php endif; ?>
 </table>
+
 <!--  hiển thị phân trang-->
+<?php echo $pagination; ?>
 

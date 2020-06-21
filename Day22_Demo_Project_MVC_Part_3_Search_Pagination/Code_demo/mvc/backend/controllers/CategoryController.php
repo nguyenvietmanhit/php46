@@ -2,6 +2,8 @@
 //controllers/CategoryController
 require_once 'controllers/Controller.php';
 require_once 'models/Category.php';
+//nhúng class phân trang
+require_once 'models/Pagination.php';
 class CategoryController extends Controller {
 
     //liệt kê danh mục
@@ -9,9 +11,9 @@ class CategoryController extends Controller {
         //khởi tạo 1 mảng params chứa các giá trị search nếu có
         $params = [];
         //xử lý submit khi search để thêm các phần tử cho mảng param
-        echo "<pre>";
-        print_r($_GET);
-        echo "</pre>";
+//        echo "<pre>";
+//        print_r($_GET);
+//        echo "</pre>";
         if (isset($_GET['submit'])) {
             $params['name'] = $_GET['name'];
             $params['status'] = $_GET['status'];
@@ -23,10 +25,31 @@ class CategoryController extends Controller {
 //        echo "<pre>";
 //        print_r($categories);
 //        echo "</pre>";
-        //tạo ra mảng các biến để view có thể sử dụng
-        $arr_output = [
-            'categories' => $categories
+
+
+        //hiển thị cơ chế phân trang cho trang list category
+        //khởi tạo đối tượng từ class Pagination
+        //tạo 1 mảng params để truyền vào class
+        //hiện tại đang dùng dữ liệu tĩnh
+        $params = [
+            'total' => 36,
+            'limit' => 5,
+            'controller' => 'category',
+            'action' => 'index',
+            'full_mode' => TRUE
         ];
+        //do phương thức khởi tạo của class PAgination
+        //đang bắt buộc phải truyền vào 1 mảng params
+        $pagination_model = new Pagination($params);
+        //gọi phương thức hiển thị phân trang
+        $pagination = $pagination_model->getPagination();
+//        echo $pagination;
+//tạo ra mảng các biến để view có thể sử dụng
+        $arr_output = [
+            'categories' => $categories,
+            'pagination' => $pagination
+        ];
+
         //lấy nội dung view tương ứng
         $this->content = $this
             ->render('views/categories/index.php', $arr_output);
