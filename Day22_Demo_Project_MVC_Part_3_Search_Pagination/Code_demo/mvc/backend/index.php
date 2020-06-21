@@ -39,7 +39,7 @@ date_default_timezone_set('Asia/Ho_Chi_Minh');
 //với mô hình mvc hiện tại, url luôn có dạng
 //index.php?controller=<>&action=<>
 $controller = isset($_GET['controller']) ? $_GET['controller'] :
-    'category';
+    'product';
 $action = isset($_GET['action']) ? $_GET['action'] : 'index';
 //chuyển đổi biến $controller thành tên class tương ứng
 //mục đích để chuyển thành tên class: CategoryController

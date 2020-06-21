@@ -6,10 +6,20 @@ class CategoryController extends Controller {
 
     //liệt kê danh mục
     public function index() {
+        //khởi tạo 1 mảng params chứa các giá trị search nếu có
+        $params = [];
+        //xử lý submit khi search để thêm các phần tử cho mảng param
+        echo "<pre>";
+        print_r($_GET);
+        echo "</pre>";
+        if (isset($_GET['submit'])) {
+            $params['name'] = $_GET['name'];
+            $params['status'] = $_GET['status'];
+        }
         //gọi model để truy vấn lấy tất cả danh mục, sau đó
         //hiển thị ra view
         $category_model = new Category();
-        $categories = $category_model->getAll();
+        $categories = $category_model->getAll($params);
 //        echo "<pre>";
 //        print_r($categories);
 //        echo "</pre>";
