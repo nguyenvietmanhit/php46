@@ -134,10 +134,26 @@ class Pagination
         //nếu như hiển thị phân trang theo kiểu ..
         // -> full_mode = FALSE
         $full_mode = $this->params['full_mode'];
-        if ($full_mode == FALSE) {
-
+      if ($this->params['full_mode'] == FALSE) {
+        for ($page = 1; $page <= $total_page; $page++) {
+          $current_page = $this->getCurrentPage();
+          //hiển thị trang 1, trang cuối, trang ngay trước trang hiện tại và trang ngay sau trang hiện tại
+          if ($page == 1 || $page == $total_page || $page  == $current_page - 1 || $page == $current_page + 1) {
+            $page_url = "index.php?controller=$controller&action=$action&page=$page";
+            $data .= "<li><a href='$page_url'>$page</a></li>";
+          }
+          //nếu là trang hiện tại thì sẽ ko có link
+          else if ($page == $current_page) {
+            $data .= "<li class='active'><a href=''>$page</a></li>";
+          }
+//        còn nếu hoặc là trang 2, trang 3 hoặc trang tổng - 1, trang tổng -2 thì hiển thị ..
+          else if (in_array($page, [$current_page - 2, $current_page - 3, $current_page + 2, $current_page + 3])){
+            $data .= "<li><a href=''>...</a></li>";
+          }
         }
-        //hiển thị full page
+//ngược lại nếu là chế độ fullpage
+      }
+      //hiển thị full page
         else {
             //chạy vòng lặp từ 1 đến tổng số trang
             //để hiển thị ra các trang

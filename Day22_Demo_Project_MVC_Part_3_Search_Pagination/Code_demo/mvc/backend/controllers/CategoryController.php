@@ -43,7 +43,7 @@ class CategoryController extends Controller {
         $pagination_model = new Pagination($params);
         //gọi phương thức hiển thị phân trang
         $pagination = $pagination_model->getPagination();
-//        echo $pagination;
+        echo $pagination;
 //tạo ra mảng các biến để view có thể sử dụng
         $arr_output = [
             'categories' => $categories,
