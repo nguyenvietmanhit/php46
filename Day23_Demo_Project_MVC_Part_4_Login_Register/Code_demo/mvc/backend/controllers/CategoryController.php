@@ -21,26 +21,52 @@ class CategoryController extends Controller {
         //gọi model để truy vấn lấy tất cả danh mục, sau đó
         //hiển thị ra view
         $category_model = new Category();
-        $categories = $category_model->getAll($params);
+
 //        echo "<pre>";
 //        print_r($categories);
 //        echo "</pre>";
-
-
         //hiển thị cơ chế phân trang cho trang list category
         //khởi tạo đối tượng từ class Pagination
         //tạo 1 mảng params để truyền vào class
         //hiện tại đang dùng dữ liệu tĩnh
-        $params = [
-            'total' => 36,
-            'limit' => 5,
+        //gọi model để lấy ra tổng số bản ghi đang có trong
+//        bảng categories
+        $total = $category_model->getTotal();
+//        cần xác định giá trị start: lấy từ bản ghi thứ mấy
+//để sử dụng cho câu truy vấn
+        //LIMIT start,limit
+        //dựa theo trang hiện tại để tính ra start
+        $page = 1;
+        if (isset($_GET['page'])) {
+            $page = $_GET['page'];
+        }
+        //tính ra giá trị start
+        $limit = 1;
+        $start = ($page - 1) * $limit;
+        $params_pagination = [
+            'total' => $total,
+            'limit' => $limit,
             'controller' => 'category',
             'action' => 'index',
-            'full_mode' => TRUE
+            'full_mode' => FALSE
         ];
+
+        //gán thêm các phần tử liên quan đến phân trang
+        //  cho mảng $params ban đầu
+        $params['limit'] = $limit;
+        $params['start'] = $start;
+
+        $categories = $category_model->getAll($params);
+
+//        SELECT * FROM categories LIMIT start,limit
+        //nếu ở trang 2:
+        //SELECT * FROM categories LIMIT 5,5
         //do phương thức khởi tạo của class PAgination
         //đang bắt buộc phải truyền vào 1 mảng params
-        $pagination_model = new Pagination($params);
+//        tham số page trên url = 1 start = 0, limit = 5
+//         tham số page  = 2 start = 5, limit = 5
+        // tham số page trên url = 3 start = 10, limit = 5
+        $pagination_model = new Pagination($params_pagination);
         //gọi phương thức hiển thị phân trang
         $pagination = $pagination_model->getPagination();
         echo $pagination;

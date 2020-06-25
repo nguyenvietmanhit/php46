@@ -54,11 +54,16 @@ VALUES (:name, :avatar, :description, :status)";
         }
         //tạo câu truy vấn
         //gắn chuỗi search nếu có vào truy vấn ban đầu
-        $sql_select_all = "SELECT * FROM categories $str_search";
+        //tạo biến gán cho các key start và limit của mảng params
+        $start = $params['start'];
+        $limit = $params['limit'];
+        $sql_select_all =
+            "SELECT * FROM categories $str_search LIMIT $start,$limit";
         //cbi đối tượng truy vấn
         $obj_select_all = $this->connection
             ->prepare($sql_select_all);
         $obj_select_all->execute();
+
         $categories = $obj_select_all
             ->fetchAll(PDO::FETCH_ASSOC);
         return $categories;
@@ -124,5 +129,22 @@ VALUES (:name, :avatar, :description, :status)";
     $obj_delete_product->execute();
 
     return $is_delete;
+  }
+
+  //trả về tổng số bản ghi của bảng categories
+  public function getTotal() {
+      //count tổng số bản ghi sẽ thì count dựa trên khóa chính
+      $sql_select_count =
+          "SELECT COUNT(id) AS count_id FROM categories";
+      $obj_select_count = $this->connection
+          ->prepare($sql_select_count);
+      $obj_select_count->execute();
+      //vì mục đích là trả về 1 số và câu truy vấn
+      // chỉ select duy nhất 1 trường là tổng số bản ghi
+      //nên sẽ gọi phương thức fetchColmn để trả về giá trị
+      //của cột trong câu truy vấn select luôn
+      $count = $obj_select_count->fetchColumn();
+//      var_dump($count);
+      return $count;
   }
 }
