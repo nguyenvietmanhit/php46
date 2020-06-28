@@ -1,6 +1,7 @@
+<!--frontend/views/layouts/main.php-->
 <html lang="en">
 <head>
-    <base href="/mvc_demo/frontend/index.php">
+<!--    <base href="/mvc_demo/frontend/index.php">-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sutiin</title>
@@ -440,10 +441,42 @@
     </div>
 </section>
 
+
 <!--Main container start -->
 <main class="container">
+<!--  hiển thị sẵn các lỗi liên quan đến session hoặc validate
+  , các thông báo liên quan đến session sucess
+  -->
+    <?php
+    if (isset($_SESSION['error'])) {
+        //hiển thị mảng theo key trong 1 chuỗi mà ko cần nối chuỗi
+        //sử dụng ký tự {} bao lấy mảng đó
+        echo "<div class='alert alert-danger'>
+        {$_SESSION['error']}
+        </div>";
+        unset($_SESSION['error']);
+    }
+    if (!empty($this->error)) {
+        echo "<div class='alert alert-danger'>
+        $this->error
+        </div>";
+    }
+    if (isset($_SESSION['success'])) {
+        //hiển thị mảng theo key trong 1 chuỗi mà ko cần nối chuỗi
+        //sử dụng ký tự {} bao lấy mảng đó
+        echo "<div class='alert alert-success'>
+        {$_SESSION['success']}
+        </div>";
+        unset($_SESSION['success']);
+    }
+    ?>
+
+    <?php
+    //hiển thị nội dung động tương ứng của từng view
+    echo $this->content;
+    ?>
     <!--MAIN CONTENT-->
-    <h1>Nội dung động content nằm ở đây</h1>
+<!--    <h1>Nội dung động content nằm ở đây</h1>-->
 </main>
 
 <!--footer-->

@@ -1,3 +1,8 @@
+<?php
+//nhúng class Helper để gọi phương thức lấy slug của chi tiết sp
+require_once 'helplers/Helper.php';
+?>
+<!--views/homes/index.php-->
 <section class="main-content">
     <!--MAIN LEFT-->
     <div class="main-left content-body">
@@ -11,326 +16,51 @@
 
             <!--Timeline items start -->
             <div class="timeline-items">
-                <!--ITEM-->
-                <div class="timeline-item">
-                    <div class="timeline-left">
-                        <div class="timeline-left-wrapper">
-                            <a href="chi-tiet/1" class="timeline-category" data-zebra-tooltip="" title="2"><i
-                                        class="material-icons"></i></a>
-                            <span class="timeline-date">2020-04-26 13:19:50</span>
-                        </div>
-                    </div>
-                    <div class="timeline-right">
-                        <div class="timeline-post-image">
-                            <a href="chi-tiet/1">
-                                <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="260">
-                            </a>
-                        </div>
-                        <div class="home-page timeline-post-content">
-                            <a href="chi-tiet/1" class="timeline-category-name font-arial">Điện thoại</a>
-                            <a href="not-defined.html">
-                                <h3 class="timeline-post-title">2</h3>
-                            </a>
-                            <div class="product-price timeline-post-info">
-                                111,111,111đ
+                <?php if (!empty($products)): ?>
+                    <?php
+                        foreach ($products AS $product):
+                            $product_title = $product['title'];
+                            $product_slug = Helper::getSlug($product_title);
+                            $product_id = $product['id'];
+                            $product_link = "chi-tiet-san-pham/$product_slug/$product_id";
+                    ?>
+                        <!--ITEM-->
+                        <div class="timeline-item">
+                            <div class="timeline-left">
+                                <div class="timeline-left-wrapper">
+                                    <a href="chi-tiet/1" class="timeline-category" data-zebra-tooltip="" title="2"><i
+                                                class="material-icons"></i></a>
+                                    <span class="timeline-date">2020-04-26 13:19:50</span>
+                                </div>
                             </div>
-                            <div class="timeline-post-info">
-                                <a href="them-vao-gio-hang/1" class="product-cart">
-                                    Thêm vào giỏ hàng
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--END ITEM-->
-                <!--ITEM-->
-                <div class="timeline-item">
-                    <div class="timeline-left">
-                        <div class="timeline-left-wrapper">
-                            <a href="chi-tiet/2" class="timeline-category" data-zebra-tooltip=""
-                               title="đâs11111111111111"><i class="material-icons"></i></a>
-                            <span class="timeline-date">2020-04-26 13:19:51</span>
-                        </div>
-                    </div>
-                    <div class="timeline-right">
-                        <div class="timeline-post-image">
-                            <a href="chi-tiet/2">
-                                <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="260">
-                            </a>
-                        </div>
-                        <div class="home-page timeline-post-content">
-                            <a href="chi-tiet/2" class="timeline-category-name font-arial">Điện thoại</a>
-                            <a href="not-defined.html">
-                                <h3 class="timeline-post-title">đâs11111111111111</h3>
-                            </a>
-                            <div class="product-price timeline-post-info">
-                                111,111,111đ
-                            </div>
-                            <div class="timeline-post-info">
-                                <a href="them-vao-gio-hang/2" class="product-cart">
-                                    Thêm vào giỏ hàng
-                                </a>
+                            <div class="timeline-right">
+                                <div class="timeline-post-image">
+                                    <a href="chi-tiet/1">
+                                        <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg"
+                                             width="260">
+                                    </a>
+                                </div>
+                                <div class="home-page timeline-post-content">
+                                    <a href="chi-tiet/1" class="timeline-category-name font-arial">Điện thoại</a>
+                                    <a href="not-defined.html">
+                                        <h3 class="timeline-post-title">2</h3>
+                                    </a>
+                                    <div class="product-price timeline-post-info">
+                                        111,111,111đ
+                                    </div>
+                                    <div class="timeline-post-info">
+                                        <a href="them-vao-gio-hang/1" class="product-cart">
+                                            Thêm vào giỏ hàng
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!--END ITEM-->
-                <!--ITEM-->
-                <div class="timeline-item">
-                    <div class="timeline-left">
-                        <div class="timeline-left-wrapper">
-                            <a href="chi-tiet/3" class="timeline-category" data-zebra-tooltip=""
-                               title="đâs11111111111111"><i class="material-icons"></i></a>
-                            <span class="timeline-date">2020-04-26 13:21:02</span>
-                        </div>
-                    </div>
-                    <div class="timeline-right">
-                        <div class="timeline-post-image">
-                            <a href="chi-tiet/3">
-                                <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="260">
-                            </a>
-                        </div>
-                        <div class="home-page timeline-post-content">
-                            <a href="chi-tiet/3" class="timeline-category-name font-arial">Điện thoại</a>
-                            <a href="not-defined.html">
-                                <h3 class="timeline-post-title">đâs11111111111111</h3>
-                            </a>
-                            <div class="product-price timeline-post-info">
-                                111,111,111đ
-                            </div>
-                            <div class="timeline-post-info">
-                                <a href="them-vao-gio-hang/3" class="product-cart">
-                                    Thêm vào giỏ hàng
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--END ITEM-->
-                <!--ITEM-->
-                <div class="timeline-item">
-                    <div class="timeline-left">
-                        <div class="timeline-left-wrapper">
-                            <a href="chi-tiet/4" class="timeline-category" data-zebra-tooltip=""
-                               title="đâs11111111111111"><i class="material-icons"></i></a>
-                            <span class="timeline-date">2020-04-26 13:21:25</span>
-                        </div>
-                    </div>
-                    <div class="timeline-right">
-                        <div class="timeline-post-image">
-                            <a href="chi-tiet/4">
-                                <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="260">
-                            </a>
-                        </div>
-                        <div class="home-page timeline-post-content">
-                            <a href="chi-tiet/4" class="timeline-category-name font-arial">Điện thoại</a>
-                            <a href="not-defined.html">
-                                <h3 class="timeline-post-title">đâs11111111111111</h3>
-                            </a>
-                            <div class="product-price timeline-post-info">
-                                111,111,111đ
-                            </div>
-                            <div class="timeline-post-info">
-                                <a href="them-vao-gio-hang/4" class="product-cart">
-                                    Thêm vào giỏ hàng
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--END ITEM-->
-                <!--ITEM-->
-                <div class="timeline-item">
-                    <div class="timeline-left">
-                        <div class="timeline-left-wrapper">
-                            <a href="chi-tiet/5" class="timeline-category" data-zebra-tooltip="" title="bbbbbbbb"><i
-                                        class="material-icons"></i></a>
-                            <span class="timeline-date">2020-04-26 13:22:12</span>
-                        </div>
-                    </div>
-                    <div class="timeline-right">
-                        <div class="timeline-post-image">
-                            <a href="chi-tiet/5">
-                                <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="260">
-                            </a>
-                        </div>
-                        <div class="home-page timeline-post-content">
-                            <a href="chi-tiet/5" class="timeline-category-name font-arial">Điện thoại</a>
-                            <a href="not-defined.html">
-                                <h3 class="timeline-post-title">bbbbbbbb</h3>
-                            </a>
-                            <div class="product-price timeline-post-info">
-                                111,111,111đ
-                            </div>
-                            <div class="timeline-post-info">
-                                <a href="them-vao-gio-hang/5" class="product-cart">
-                                    Thêm vào giỏ hàng
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--END ITEM-->
-                <!--ITEM-->
-                <div class="timeline-item">
-                    <div class="timeline-left">
-                        <div class="timeline-left-wrapper">
-                            <a href="chi-tiet/6" class="timeline-category" data-zebra-tooltip=""
-                               title="đâs11111111111111"><i class="material-icons"></i></a>
-                            <span class="timeline-date">2020-04-26 13:24:28</span>
-                        </div>
-                    </div>
-                    <div class="timeline-right">
-                        <div class="timeline-post-image">
-                            <a href="chi-tiet/6">
-                                <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="260">
-                            </a>
-                        </div>
-                        <div class="home-page timeline-post-content">
-                            <a href="chi-tiet/6" class="timeline-category-name font-arial">Điện thoại</a>
-                            <a href="not-defined.html">
-                                <h3 class="timeline-post-title">đâs11111111111111</h3>
-                            </a>
-                            <div class="product-price timeline-post-info">
-                                111,111,111đ
-                            </div>
-                            <div class="timeline-post-info">
-                                <a href="them-vao-gio-hang/6" class="product-cart">
-                                    Thêm vào giỏ hàng
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--END ITEM-->
-                <!--ITEM-->
-                <div class="timeline-item">
-                    <div class="timeline-left">
-                        <div class="timeline-left-wrapper">
-                            <a href="chi-tiet/7" class="timeline-category" data-zebra-tooltip=""
-                               title="đâs11111111111111"><i class="material-icons"></i></a>
-                            <span class="timeline-date">2020-04-26 13:36:50</span>
-                        </div>
-                    </div>
-                    <div class="timeline-right">
-                        <div class="timeline-post-image">
-                            <a href="chi-tiet/7">
-                                <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="260">
-                            </a>
-                        </div>
-                        <div class="home-page timeline-post-content">
-                            <a href="chi-tiet/7" class="timeline-category-name font-arial">Điện thoại</a>
-                            <a href="not-defined.html">
-                                <h3 class="timeline-post-title">đâs11111111111111</h3>
-                            </a>
-                            <div class="product-price timeline-post-info">
-                                111,111,111đ
-                            </div>
-                            <div class="timeline-post-info">
-                                <a href="them-vao-gio-hang/7" class="product-cart">
-                                    Thêm vào giỏ hàng
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--END ITEM-->
-                <!--ITEM-->
-                <div class="timeline-item">
-                    <div class="timeline-left">
-                        <div class="timeline-left-wrapper">
-                            <a href="chi-tiet/8" class="timeline-category" data-zebra-tooltip=""
-                               title="đâs11111111111111"><i class="material-icons"></i></a>
-                            <span class="timeline-date">2020-05-02 21:24:51</span>
-                        </div>
-                    </div>
-                    <div class="timeline-right">
-                        <div class="timeline-post-image">
-                            <a href="chi-tiet/8">
-                                <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="260">
-                            </a>
-                        </div>
-                        <div class="home-page timeline-post-content">
-                            <a href="chi-tiet/8" class="timeline-category-name font-arial">Điện thoại</a>
-                            <a href="not-defined.html">
-                                <h3 class="timeline-post-title">đâs11111111111111</h3>
-                            </a>
-                            <div class="product-price timeline-post-info">
-                                111,111,111đ
-                            </div>
-                            <div class="timeline-post-info">
-                                <a href="them-vao-gio-hang/8" class="product-cart">
-                                    Thêm vào giỏ hàng
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--END ITEM-->
-                <!--ITEM-->
-                <div class="timeline-item">
-                    <div class="timeline-left">
-                        <div class="timeline-left-wrapper">
-                            <a href="chi-tiet/9" class="timeline-category" data-zebra-tooltip=""
-                               title="đâs11111111111111"><i class="material-icons"></i></a>
-                            <span class="timeline-date">2020-05-02 21:25:19</span>
-                        </div>
-                    </div>
-                    <div class="timeline-right">
-                        <div class="timeline-post-image">
-                            <a href="chi-tiet/9">
-                                <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="260">
-                            </a>
-                        </div>
-                        <div class="home-page timeline-post-content">
-                            <a href="chi-tiet/9" class="timeline-category-name font-arial">Điện thoại</a>
-                            <a href="not-defined.html">
-                                <h3 class="timeline-post-title">đâs11111111111111</h3>
-                            </a>
-                            <div class="product-price timeline-post-info">
-                                111,111,111đ
-                            </div>
-                            <div class="timeline-post-info">
-                                <a href="them-vao-gio-hang/9" class="product-cart">
-                                    Thêm vào giỏ hàng
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--END ITEM-->
-                <!--ITEM-->
-                <div class="timeline-item">
-                    <div class="timeline-left">
-                        <div class="timeline-left-wrapper">
-                            <a href="chi-tiet/10" class="timeline-category" data-zebra-tooltip=""
-                               title="đâs11111111111111"><i class="material-icons"></i></a>
-                            <span class="timeline-date">2020-05-02 21:28:56</span>
-                        </div>
-                    </div>
-                    <div class="timeline-right">
-                        <div class="timeline-post-image">
-                            <a href="chi-tiet/10">
-                                <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="260">
-                            </a>
-                        </div>
-                        <div class="home-page timeline-post-content">
-                            <a href="chi-tiet/10" class="timeline-category-name font-arial">Điện thoại</a>
-                            <a href="not-defined.html">
-                                <h3 class="timeline-post-title">đâs11111111111111</h3>
-                            </a>
-                            <div class="product-price timeline-post-info">
-                                111,111,111đ
-                            </div>
-                            <div class="timeline-post-info">
-                                <a href="them-vao-gio-hang/10" class="product-cart">
-                                    Thêm vào giỏ hàng
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--END ITEM-->
+                        <!--END ITEM-->
+                    <?php endforeach; ?>
+                <?php else: ?>
+                    <h2>Không có sản phẩm nào</h2>
+                <?php endif; ?>
 
             </div>
             <!--Timeline items end -->
