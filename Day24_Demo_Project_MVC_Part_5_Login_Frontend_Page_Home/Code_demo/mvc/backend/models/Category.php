@@ -55,8 +55,8 @@ VALUES (:name, :avatar, :description, :status)";
         //tạo câu truy vấn
         //gắn chuỗi search nếu có vào truy vấn ban đầu
         //tạo biến gán cho các key start và limit của mảng params
-        $start = $params['start'];
-        $limit = $params['limit'];
+        $start = isset($params['start']) ? $params['start'] : 0;
+        $limit = isset($params['limit']) ? $params['limit'] : 1000;
         $sql_select_all =
             "SELECT * FROM categories $str_search LIMIT $start,$limit";
         //cbi đối tượng truy vấn

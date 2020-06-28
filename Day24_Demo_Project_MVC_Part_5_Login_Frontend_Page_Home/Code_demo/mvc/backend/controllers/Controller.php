@@ -6,6 +6,24 @@
 //là các thuộc tính/phương thức dùng chung bởi các class con
 //kế thừa từ class cha này
 class Controller {
+    //do tất cả các controller bên backend đều kế thừa từ
+    //class Controller cha
+    //nên sẽ check việc user đã đăng nhập thì mới sử dụng đc
+    //chức năng bên backend tại phương thức khởi tạo của class
+    //cha này
+    public function __construct() {
+        //nếu như ko tồn tại session user và
+        //controller ko phải là Login để tránh trường hợp chuyển hướng
+        //lặp lại liên tục
+        if (!isset($_SESSION['user'])
+            && $_GET['controller'] != 'login') {
+            $_SESSION['error'] = 'Bạn chưa đăng nhập';
+            header
+            ('Location: index.php?controller=login&action=login');
+            exit();
+        }
+    }
+
     //chứa thông tin về lỗi validate của form
     public $error;
     //chứa thông tin của nội dung view theo từng chức năng

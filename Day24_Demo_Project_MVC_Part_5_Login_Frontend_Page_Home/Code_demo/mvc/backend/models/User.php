@@ -37,4 +37,22 @@ class User extends Model {
         ];
         return $obj_insert->execute($arr_insert);
     }
+
+    public function getUserLogin($username, $password) {
+        $sql_select_one =
+            "SELECT * FROM users WHERE 
+            `username` = :username AND `password` = :password";
+        $obj_select_one =
+            $this->connection
+                ->prepare($sql_select_one);
+        //truyền giá trị thật cho các placeholder trong câu truy vấn
+        $arr_select = [
+          ':username' => $username,
+          ':password' => $password
+        ];
+        //thực thi truy vấn
+        $obj_select_one->execute($arr_select);
+        $user = $obj_select_one->fetch(PDO::FETCH_ASSOC);
+        return $user;
+    }
 }
