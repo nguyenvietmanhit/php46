@@ -8,9 +8,9 @@ class HomeController extends Controller {
         //lấy các sản phẩm để hiển thị ra view
         $product_model = new Product();
         $products = $product_model->getAll();
-        echo "<pre>";
-        print_r($products);
-        echo "</pre>";
+//        echo "<pre>";
+//        print_r($products);
+//        echo "</pre>";
 
         //truyền biến $product ra view
         $this->content =

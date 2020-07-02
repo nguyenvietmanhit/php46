@@ -22,4 +22,18 @@ class Product extends Model {
             ->fetchAll(PDO::FETCH_ASSOC);
         return $products;
     }
+
+    public function getById($id) {
+        $sql_select_one =
+            "SELECT products.*, categories.name AS category_name
+            FROM products
+            INNER JOIN categories 
+            ON products.category_id = categories.id
+            WHERE products.id = $id";
+        $obj_select_one =
+            $this->connection->prepare($sql_select_one);
+        $obj_select_one->execute();
+        $product = $obj_select_one->fetch(PDO::FETCH_ASSOC);
+        return $product;
+    }
 }

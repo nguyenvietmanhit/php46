@@ -1,6 +1,6 @@
 <?php
 //nhúng class Helper để gọi phương thức lấy slug của chi tiết sp
-require_once 'helplers/Helper.php';
+require_once 'helpers/Helper.php';
 ?>
 <!--views/homes/index.php-->
 <section class="main-content">
@@ -10,7 +10,9 @@ require_once 'helplers/Helper.php';
             <!--Timeline header area start -->
             <div class="post-list-header">
                 <h1 class="post-list-title">
-                    <a href="#" class="link-category-item">Danh sách sản phẩm</a>
+                    <a href="danh-sach-san-pham" class="link-category-item">
+                        Danh sách sản phẩm
+                    </a>
                 </h1>
             </div>
 
@@ -18,38 +20,51 @@ require_once 'helplers/Helper.php';
             <div class="timeline-items">
                 <?php if (!empty($products)): ?>
                     <?php
-                        foreach ($products AS $product):
-                            $product_title = $product['title'];
-                            $product_slug = Helper::getSlug($product_title);
-                            $product_id = $product['id'];
-                            $product_link = "chi-tiet-san-pham/$product_slug/$product_id";
-                    ?>
+                    foreach ($products AS $product):
+                        $product_title = $product['title'];
+                        $product_slug = Helper::getSlug($product_title);
+                        $product_id = $product['id'];
+                        $product_link = "chi-tiet-san-pham/$product_slug/$product_id";
+                        ?>
                         <!--ITEM-->
                         <div class="timeline-item">
                             <div class="timeline-left">
                                 <div class="timeline-left-wrapper">
-                                    <a href="chi-tiet/1" class="timeline-category" data-zebra-tooltip="" title="2"><i
-                                                class="material-icons"></i></a>
-                                    <span class="timeline-date">2020-04-26 13:19:50</span>
+                                    <a href="<?php echo $product_link; ?>"
+                                       class="timeline-category" data-zebra-tooltip=""
+                                       title="<?php echo $product['title']?>">
+                                        <i class="material-icons"></i></a>
+                                    <span class="timeline-date">
+                                        <?php echo $product['created_at']; ?>
+                                    </span>
                                 </div>
                             </div>
                             <div class="timeline-right">
                                 <div class="timeline-post-image">
-                                    <a href="chi-tiet/1">
-                                        <img src="../backend/assets/uploads/1588432245-product-hang1edit.jpg"
+                                    <a href="<?php echo $product_link; ?>">
+<!--                                     do file index.php gốc của frontend đang nằm dưới 1 cấp
+                                         so với thư mục backend, nên cần sử dụng ký tự .. để lên 1 cấp           -->
+                                <img src="../backend/assets/uploads/<?php echo $product['avatar']; ?>"
                                              width="260">
                                     </a>
                                 </div>
+<!--                chi-tiet-san-pham/nishino-bo-ba-thi-dau-o-nhat-se-la-chu-luc-cua-tuyen-thai-lan/5-->
                                 <div class="home-page timeline-post-content">
-                                    <a href="chi-tiet/1" class="timeline-category-name font-arial">Điện thoại</a>
-                                    <a href="not-defined.html">
-                                        <h3 class="timeline-post-title">2</h3>
+                                    <a href="<?php echo $product_link; ?>"
+                                       class="timeline-category-name font-arial">
+                                        <?php echo $product['category_name']; ?>
+                                    </a>
+                                    <a href="<?php echo $product_link; ?>">
+                                        <h3 class="timeline-post-title">
+                                            <?php echo $product['title']; ?>
+                                        </h3>
                                     </a>
                                     <div class="product-price timeline-post-info">
-                                        111,111,111đ
+                                        <?php echo number_format($product['price']); ?>đ
                                     </div>
                                     <div class="timeline-post-info">
-                                        <a href="them-vao-gio-hang/1" class="product-cart">
+                                        <a href="them-vao-gio-hang/<?php echo $product['id']?>"
+                                           class="product-cart">
                                             Thêm vào giỏ hàng
                                         </a>
                                     </div>

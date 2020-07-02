@@ -2,6 +2,14 @@
 <html lang="en">
 <head>
 <!--    <base href="/mvc_demo/frontend/index.php">-->
+<!--  khi sử dụng rewrite, thì tất cả các link css, js, images
+  sẽ đều bị thay đổi, cụ thể là sẽ bị gắn vào url hiện tại
+  , nên bắt buộc phải khai báo thẻ <base> với nội dung bên dưới
+  để set lại url gốc cho ứng dụng
+  $_SERVER['SCRIPT_NAME'] sẽ trả về url tới file index.php gốc
+  của ứng dụng
+  -->
+    <base href="<?php echo $_SERVER['SCRIPT_NAME']; ?>" />
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Sutiin</title>
