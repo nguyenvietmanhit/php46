@@ -22,4 +22,11 @@ RewriteEngine On
 RewriteRule chi-tiet-san-pham/(.*)/([0-9]{1,}) index.php?controller=product&action=detail&slug=$1&id=$2
 #rule cho trang Danh sách sản phẩm
 RewriteRule danh-sach-san-pham index.php?controller=product&action=showAll
+#rule cho trang thêm vào giỏ hàng
+RewriteRule them-vao-gio-hang/([0-9]{1,}) index.php?controller=cart&action=add&id=$1
+#rule cho trang Giỏ hàng của bạn
+RewriteRule gio-hang-cua-ban index.php?controller=cart&action=index
+#rule cho trang xóa sản phẩm trong giỏ hàng
+RewriteRule xoa-gio-hang/([0-9]{1,}) index.php?controller=cart&action=delete&id=$1
+
 

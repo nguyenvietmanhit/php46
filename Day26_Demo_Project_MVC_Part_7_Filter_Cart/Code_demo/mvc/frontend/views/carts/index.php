@@ -1,6 +1,14 @@
+<?php
+//views/carts/index.php
+echo "<pre>";
+print_r($_SESSION['cart']);
+echo "</pre>";
+?>
+
 <div class="timeline-items container">
     <h2>Giỏ hàng của bạn</h2>
-    <form action="" method="post">
+    <?php if (isset($_SESSION['cart'])): ?>
+        <form action="" method="post">
         <table class="table table-bordered">
             <tbody>
             <tr>
@@ -73,4 +81,7 @@
             </tbody>
         </table>
     </form>
+    <?php else: ?>
+        <h3>Giỏ hàng trống</h3>
+    <?php endif; ?>
 </div>

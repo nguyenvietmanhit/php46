@@ -4,14 +4,24 @@ require_once 'models/Model.php';
 class Product extends Model {
 
     //Lấy tất cả sản phẩm đang có trên hệ thống
-    public function getAll() {
+    //dựa theo mảng param truyền vào
+    public function getAll($params = []) {
+        $str_category_id = '';
+        $str_price = '';
+        if (isset($params['str_category_id'])) {
+            $str_category_id = " AND " . $params['str_category_id'];
+        }
+        if (isset($params['str_price'])) {
+            $str_price = " AND " . $params['str_price'];
+        }
         //với truy vấn mà có join bảng, thì luôn cần sử dụng
         //tên bảng trước tên trường, vd: products.price
         $sql_select_all =
             "SELECT products.*, categories.name AS category_name
             FROM products
             INNER JOIN categories 
-            ON products.category_id = categories.id";
+            ON products.category_id = categories.id
+            WHERE TRUE $str_category_id $str_price";
         //comment lại điều kiện WHere cho việc test,
         // tuy nhiên thực tế sẽ dùng
 //            WHERE categories.status=1 AND products.status=1";

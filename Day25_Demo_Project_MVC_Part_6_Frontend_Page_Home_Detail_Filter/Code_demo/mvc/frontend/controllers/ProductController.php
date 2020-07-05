@@ -32,7 +32,7 @@ class ProductController extends Controller {
         echo "<pre>";
         print_r($_POST);
         echo "</pre>";
-//        die;
+        die;
         if(isset($_POST['filter'])) {
             //xử lý lọc sản phẩm
         }
