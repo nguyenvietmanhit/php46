@@ -3,6 +3,10 @@
 echo "<pre>";
 print_r($_SESSION['cart']);
 echo "</pre>";
+//nhúng class Helper trong thư mục helpers/Helper.php
+//để sử dụng phương thức tĩnh slug() -> tạo ra link chi tiết
+//theo dạng đường dẫn thân thiện
+require_once 'helpers/Helper.php';
 ?>
 
 <div class="timeline-items container">
@@ -19,57 +23,60 @@ echo "</pre>";
                 <th></th>
             </tr>
 
-            <tr>
+            <?php
+                //khai báo 1 biến chứa tổng giá trị đơn hàng
+                $total_cart = 0;
+                foreach($_SESSION['cart'] AS $product_id => $cart):
+                    $slug = Helper::getSlug($cart['name']);
+                    $url_detail = "chi-tiet-san-pham/$slug/$product_id";
+            ?>
+                <tr>
                 <td>
-                    <img class="product-avatar img-responsive" src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="80">
+                    <img class="product-avatar img-responsive"
+                     src="../backend/assets/uploads/<?php echo $cart['avatar']?>"
+                         width="80">
                     <div class="content-product">
-                        <a href="chi-tiet-san-pham/samsung-s9/5" class="content-product-a">
-                            đâs11111111111111 </a>
+                        <a href="<?php echo $url_detail; ?>"
+                           class="content-product-a">
+                            <?php echo $cart['name']; ?>
+                        </a>
                     </div>
                 </td>
                 <td>
-                    <!--                      cần khéo léo đặt name cho input số lượng, để khi xử lý submit form update lại giỏ hàng sẽ đơn giản hơn    -->
-                    <input type="number" min="0" name="9" class="product-amount form-control" value="1">
+                    <!--  cần khéo léo đặt name cho input số lượng,
+                    để khi xử lý submit form update lại giỏ hàng sẽ đơn giản hơn    -->
+                    <input type="number" min="0" name="<?php echo $product_id; ?>"
+                           class="product-amount form-control"
+                           value="<?php echo $cart['quality']?>">
                 </td>
                 <td>
-                    111,111,111                      </td>
+                    <?php echo number_format($cart['price']); ?>
+                </td>
                 <td>
-                    111,111,111                      </td>
+                    <?php
+                    //thành tiền
+                    $total_item = $cart['price'] * $cart['quality'];
+                    echo number_format($total_item);
+                    //cộng dồn Thành tiên cho tổng giá trị đơn hàng
+                    $total_cart += $total_item;
+                    ?>
+                </td>
                 <td>
-                    <a class="content-product-a" href="xoa-san-pham/9">
+                    <a class="content-product-a"
+                       href="xoa-san-pham/<?php echo $product_id; ?>">
                         Xóa
                     </a>
                 </td>
             </tr>
-            <tr>
-                <td>
-                    <img class="product-avatar img-responsive" src="../backend/assets/uploads/1588432245-product-hang1edit.jpg" width="80">
-                    <div class="content-product">
-                        <a href="chi-tiet-san-pham/samsung-s9/5" class="content-product-a">
-                            2 </a>
-                    </div>
-                </td>
-                <td>
-                    <!--                      cần khéo léo đặt name cho input số lượng, để khi xử lý submit form update lại giỏ hàng sẽ đơn giản hơn    -->
-                    <input type="number" min="0" name="1" class="product-amount form-control" value="1">
-                </td>
-                <td>
-                    111,111,111                      </td>
-                <td>
-                    111,111,111                      </td>
-                <td>
-                    <a class="content-product-a" href="xoa-san-pham/1">
-                        Xóa
-                    </a>
-                </td>
-            </tr>
-
+            <?php endforeach; ?>
             <tr>
                 <td colspan="5" style="text-align: right">
                     Tổng giá trị đơn hàng:
                     <span class="product-price">
-                                            222,222,222 vnđ
-                                                </span>
+                      <?php
+                      echo number_format($total_cart);
+                      ?>
+                    </span>
                 </td>
             </tr>
             <tr>
