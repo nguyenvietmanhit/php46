@@ -32,8 +32,28 @@ class PaymentController extends Controller {
                 $order_model = new Order();
                 $order_model->fullname = $fullname;
                 $order_model->address = $address;
-                //....
-                //giả sử đã lưu đơn hàng thành công
+                $order_model->mobile = $mobile;
+                $order_model->note = $note;
+                $order_model->email = $email;
+                //tính tổng giá trị đơn hàng cho trường price_total
+                //trong bảng orders
+                $price_total = 0;
+                //lặp giỏ hàng, cộng dồn biến $price_total này với giá
+                //thành tiền của các sản phẩm tương ứng trong giỏ
+                foreach ($_SESSION['cart'] AS $cart) {
+                    $price_item = $cart['price'] * $cart['quality'];
+                    $price_total += $price_item;
+                }
+                $order_model->price_total = $price_total;
+                //trạng thái thanh toán đơn hàng, mặc định ban đầu trạng
+                //thái sẽ là chưa thanh toán, trường payment_status trong
+                //bảng order đang có kiểu dữ liệu là TINYINT
+                $order_model->payment_status = 0;
+                //thực tế sẽ có bộ phận sales sẽ quản lý các đơn
+                //hàng, liên hệ với user đã đặt hàng, sau đó khi
+                //nhận đc tiền từ KH thì sẽ cập nhật lại trường
+                //payment_status này thành Đã thanh toán
+
                 $is_insert = $order_model->insert();
                 if ($is_insert) {
                     //dựa vào phương thức thanh toán để quyết định

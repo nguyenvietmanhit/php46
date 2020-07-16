@@ -12,7 +12,7 @@ class Order extends Model {
     public $payment_status;
 
     public function insert() {
-        //xử lý lưu vào bảng orders
-        return true;
+        //tạo câu truy vấn
+        $sql_insert = "INSERT INTO orders()"
     }
 }
