@@ -176,22 +176,26 @@ if(@$_POST['nlpayment']) {
 			</tr>
 			<tr><td>Số tiền thanh toán: </td>
 				<td>
-					 <input type="text" style="width:270px" id="total_amount" name="total_amount" class="field-check " value="">
+					 <input type="text" style="width:270px" id="total_amount" name="total_amount" class="field-check "
+                            value="<?php echo $_SESSION['order']['price_total']?>">
 				</td>
 			</tr>
 			<tr><td>Họ Tên: </td>
 				<td>
-					 <input type="text" style="width:270px" id="fullname" name="buyer_fullname" class="field-check " value="">
+					 <input type="text" style="width:270px" id="fullname" name="buyer_fullname" class="field-check "
+                            value="<?php echo $_SESSION['order']['fullname']?>">
 				</td>
 			</tr>
 			<tr><td>Email: </td>
 				<td>
-					 <input type="text" style="width:270px" id="fullname" name="buyer_email" class="field-check " value="">
+					 <input type="text" style="width:270px" id="fullname" name="buyer_email" class="field-check "
+                            value="<?php echo $_SESSION['order']['email']?>">
 				</td>
 			</tr>
 			<tr><td>Số Điện thoại: </td>
 				<td>
-					 <input type="text" style="width:270px" id="fullname" name="buyer_mobile" class="field-check " value="">
+					 <input type="text" style="width:270px" id="fullname" name="buyer_mobile" class="field-check "
+                            value="<?php echo $_SESSION['order']['mobile'];?>">
 				</td>
 			</tr>				
 		</table>	
