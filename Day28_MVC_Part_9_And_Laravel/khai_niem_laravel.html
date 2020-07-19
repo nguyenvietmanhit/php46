@@ -1,0 +1,115 @@
+<!--
+khai_niem_laravel.html
+1  - Khái niệm Laravel:
++ Laravel là 1 framework, đc xây dựng dựa trên ngôn ngữ lập trình PHP,
+sử dụng mô hình MVC kết hợp với OOP để xây dựng
++ Framework đơn giản là 1 cái khung đã đc dựng sẵn, và chỉ việc
+//phát triển các chức năng mà ko cần xây dựng từ đầu như MVC thuần
++ Framework hỗ trợ rất nhiều phương thức có sẵn như phân trang, truy
+//cập CSDL ...
++ Cài đặt Laravel: thường sẽ sử dụng Composer để cài đặt,
+Composer nó là công cụ để quản lý các thư viện từ bên thứ 3,
+Laravel ko chỉ có mỗi code của bản thân framework, mà còn tích
+//hợp rất nhiều các thư viện từ bên thứ 3, các thư viện này nằm trong
+//thư mục vendor của Laravel. Composer tự động lấy các update mới
+nhất nếu có từ các thư viện thông qua lệnh: composer update
++ KHai báo các controller tại thư mục
+app/Http/Controllers
++ KHai báo các model trong thư mục app, có
+thể tạo thêm thư mục Model để lưu các model
++ Trong Laravel thì các file views luôn có định dạng:
+blade.php, blade là 1 template engine của Laravel
+
+2 - Demo ứng dụng Thêm/sửa/xóa/liệt kê sản phẩm sử dụng Laravel
++ Bước 1: Tạo CSDL tên php46_laravel
+Tạo 2 bảng: categories, products. Thông tin 2 bảng như sau:
+- Bảng categories bao gồm các trường sau:
+id: khóa chính, tự tăng, độ dài tối đa 11 ký tự
+name: tên danh mục, varchar 255
+description: chi tiết danh mục, text
+status: trạng thái danh mục, tinyint: 0 - ẩn, 1 - hiển thị
+created_at: ngày tạo, timestamp, tự đọng lấy thời gian hiện tại
+updated_at: ngày cập nhật cuối
+- Bảng products: bao gồm các trường sau:
+id:khóa chính
+name: tên sp, varchar 255
+price: giá sp, int 255
+avatar: lưu file ảnh đại diện, varchar 255
+category_id: id của danh mục, int 11, khóa ngoại
+status: tinyint, 0 - ẩn, 1 - hiển thị
+created_at: ngày tạo
+update_at: ngày cập nhật cuối cùng
+
+- Tạo CSDL php46_laravel thủ công bằng PHPMyadmin, sử dụng câu truy
+vấn để tạo CSDL
+CREATE DATABASE IF NOT EXISTS php46_laravel
+CHARACTER SET utf8 COLLATE utf8_general_ci;
+- Với Laravel, để cấu hình CSDL thì sẽ ko cấu hình trong file
+config/database.php mà sẽ cấu hình trong file .env, là file nằm
+ngoài cùng của ứng dụng. File .env là file cài đặt môi trường
+cho ứng dụng Laravel
+- Làm quen với các lệnh artisan, hỗ trợ cac thao tác liên
+quan đến Laravel như tạo controller chuẩn Laravel, model
+chuẩn Laravel, tạo các file migrate CSDL ....
+Học LAravel ko thể ko biết đến artisan!
+- Dùng artisan để tạo các file migrate -> tạo các bảng bằng
+code Laravel, chứ ko dùng giao diện PHPMyadmin, theo các bước sau:
++ Sử dụng lệnh sau để tạo các file cbi cho quá trình migrate - hiểu
+đơn giản: tạo các file, chạy lệnh artisan để tạo bảng
+php artisan make:migration <tên_file_sẽ_tạo>
+--create=<tên_bảng_sẽ_tạo>
+Sau khi chạy lệnh trên, các file migrate sẽ sinh ra tại đường dẫn
+sau: database/migrations
+- Khi sử dụng Laravel, có 1 khái niệm namspace, vd:
+use Illuminate\Database\Migrations\Migration;
+Hiểu đơn giản tương đương các lệnh require_once, trong mô hình MVC
+thuần sẽ ko thể khai báo 2 class trùng tên, khi sử dụng cơ chế
+namespace sẽ giải quyết đc vấn đề này
+- Chạy 2 lệnh migarte sau để tạo bảng tương ứng:
+php artisan make:migration create_table_categories --create=categories
+php artisan make:migration create_table_products --create=products
+- Sau khi tạo các file migrate, chạy lệnh sau để artisan tạo các
+table thật: php artisan migrate, lệnh này sẽ đọc tất cả các file
+migrate trong thư mục database/migrations để tạo bảng
+- Laravel mặc định lấy trường id làm khóa chính, khóa ngoại thì
+sẽ lấy các trường có định dạng sau: <tên-bảng-số-ít>_id
+- Thực tế các thao tác liên quan đến thay đổi cấu trúc CSDL thì
+đều thực hiện thông qua việc tạo các file migrate, chứ sẽ ko
+thao tác trực tiếp trên PHPMyadmin
+
+Bước 2: Tạo ra các controller, model và view để thực hiện
+chức năng CRUD cho product
++ Tạo controller và model sẽ ko tạo theo kiểu thủ công, sẽ tạo
+thông qua lệnh artisan để tạo đc các controller và model chuẩn
+Laravel
++ Chỉ có view trong Laravel là tạo thủ công
++ Tạo controller bằng lệnh artisan sau, khi tạo controller sẽ
+nằm trong thư mục app/Http/Controllers:
+php artisan make:controller <tên_file_controller_ở_dạng_số_it>
+VD:
+php artisan make:controller Test1Controller
+php artisan make:controller Fronted\Test2Controller
+php artisan make:controller ProductController
++ Tạo model trong Laravel cũng dùng lệnh artisan, mặc định model
+sinh ra nằm trong đường dẫn app/:
+php artisan make:model <tên_file_model_ở_dạng_số_it>
++ Tạo view: tạo thủ công từ đường dẫn resources/views/
+Lưu ý: tên file view luôn ở dạng .blade.php, nên đặt thư mục bao
+lấy các views để dễ quản lý
+Tạo cấu trúc file view như sau:
+resources/views/products
+                       /index.blade.php: file liệt kê sp
+                       /create.blade.php: thêm mới sp
+                       /update.blade.php: sửa sp
+                       /detail.blade.php: chi tiết sp
+resources/views/categories
+                        /index.blade.php: liệt kê danh mục
+                        /create.blade.php: thêm mới danh mục
+                        /update.blade.php: sửa danh mục
+                        /detail.blade.php: chi tiết danh mục
+Bước 3: Khai báo các route để định nghĩa ra các url trên trang, vd:
+muốn truy cập đc chức năng liệt kê danh mục thì bắt buộc phải khai
+báo route cho nó. Cơ chế route của Laravel hiểu đơn giản giống
+file .htaccess của mô hình MVC thuần
++ KHai báo các route trong đường dẫn sau: routes/web.php
+-->
