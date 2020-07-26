@@ -42,3 +42,26 @@ Route::get('chi-tiet/{title}/{id}', function ($title, $id) {
 });
 
 Route::get('ct/{title}/{id}', 'CategoryController@detail');
+
+//routes/web.php
+//Laravel quy định chặt chẽ việc dùng phương thức nào khi set route,
+//dùng phương thức get khi lấy dữ liệu ra, post khi có thay đổi dữ
+//liệu trong database
+//Khai báo các route cho chức năng CRUD product
+// + Route trang liệt kê sản phẩm
+Route::get('/product/list', 'ProductController@index');
+
+// + Route hiển thị ra form sản phẩm
+Route::get('/product/create', 'ProductController@create');
+// + Route save dữ liệu khi submit form thêm mới
+Route::post('/product/store', 'ProductController@store');
+
+// + route update sản phẩm, cần truyền tham số id lên trình duyệt
+//để biết đc đang update trên sản phẩm nào
+//route này chỉ hiển thị ra form update
+Route::get('/product/update/{id}', 'ProductController@update');
+// + route cập nhật dữ liệu khi submit form
+Route::post('/product/edit', 'ProductController@edit');
+
+// + route xóa sản phẩm
+Route::get('/product/delete/{id}', 'ProductController@delete');
